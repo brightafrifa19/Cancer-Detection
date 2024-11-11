@@ -1,0 +1,113 @@
+{
+    "symptoms": {
+        "cough": {
+            "symptom": "Frequent coughing, especially with no known cause",
+            "type": "Lung Cancer",
+            "severity": 2,
+            "prevention": "Avoid smoking, minimize exposure to secondhand smoke, and maintain a healthy lifestyle.",
+            "meal_plan": "Focus on fruits, vegetables, whole grains, and lean proteins. Limit red and processed meats.",
+            "drugs": ["Cisplatin", "Carboplatin", "Erlotinib"],
+            "advice": "Regular check-ups are crucial. Monitor any changes weekly."
+        },
+        "persistent cough": {
+            "symptom": "Cough that persists over several weeks",
+            "type": "Lung Cancer",
+            "severity": 3,
+            "prevention": "Avoid irritants and maintain a healthy lifestyle.",
+            "meal_plan": "Focus on a balanced diet rich in vitamins and minerals.",
+            "drugs": ["Cough suppressants", "Bronchodilators"],
+            "advice": "Consult a doctor if cough persists for over a week."
+        },
+        "shortness of breath": {
+            "symptom": "Difficulty breathing or shortness of breath",
+            "type": "Lung Cancer",
+            "severity": 3,
+            "prevention": "Avoid smoking and exposure to pollutants.",
+            "meal_plan": "Consume anti-inflammatory foods like leafy greens, berries, and nuts.",
+            "drugs": ["Albuterol", "Ipratropium"],
+            "advice": "If symptoms worsen, seek medical advice."
+        },
+        "blood in stool": {
+            "symptom": "Blood present in stool",
+            "type": "Colorectal Cancer",
+            "severity": 3,
+            "prevention": "Regular screenings, high-fiber diet, and regular exercise.",
+            "meal_plan": "Incorporate more fruits, vegetables, and whole grains to aid digestion.",
+            "drugs": ["Bevacizumab", "Cetuximab"],
+            "advice": "Consult a healthcare provider immediately."
+        },
+        "unexplained bruising": {
+            "symptom": "Bruising without known cause",
+            "type": "Leukemia",
+            "severity": 2,
+            "prevention": "Avoid exposure to harmful chemicals and radiation.",
+            "meal_plan": "Eat a balanced diet rich in vitamins, especially vitamin C and iron.",
+            "drugs": ["Imatinib", "Dasatinib"],
+            "advice": "Track bruising patterns and consult a specialist."
+        },
+        "abdominal pain": {
+            "symptom": "Frequent abdominal discomfort or pain",
+            "type": "Pancreatic Cancer",
+            "severity": 3,
+            "prevention": "Maintain a balanced diet, limit alcohol intake, and avoid smoking.",
+            "meal_plan": "Focus on easily digestible foods and avoid fatty foods.",
+            "drugs": ["FOLFIRINOX", "Gemcitabine"],
+            "advice": "Seek medical advice if pain persists or worsens."
+        },
+        "night sweats": {
+            "symptom": "Excessive sweating during the night",
+            "type": "Lymphoma",
+            "severity": 2,
+            "prevention": "Boost immunity through a healthy diet and regular exercise.",
+            "meal_plan": "Consume immune-boosting foods like garlic, ginger, and green tea.",
+            "drugs": ["Rituximab", "Prednisone"],
+            "advice": "Consult a healthcare provider if this is a new or persistent symptom."
+        },
+        "fever": {
+            "symptom": "Frequent or recurring fever",
+            "type": "Lymphoma or Leukemia",
+            "severity": 2,
+            "prevention": "Avoid infections by practicing good hygiene and maintaining a balanced diet.",
+            "meal_plan": "Incorporate hydrating foods like watermelon, cucumbers, and broths.",
+            "drugs": ["Acetaminophen", "Ibuprofen"],
+            "advice": "Seek medical evaluation for recurrent fevers."
+        },
+        "fatigue": {
+            "symptom": "Chronic fatigue or lack of energy",
+            "type": "Leukemia",
+            "severity": 1,
+            "prevention": "Limit exposure to radiation and chemicals. Eat a balanced diet.",
+            "meal_plan": "Emphasize foods rich in iron and vitamins, such as leafy greens and nuts.",
+            "drugs": ["Hydroxyurea", "Imatinib"],
+            "advice": "Rest is vital; monitor fatigue levels weekly."
+        },
+        "mild tiredness": {
+            "symptom": "Occasional mild tiredness",
+            "type": "No Cancer",
+            "severity": 0,
+            "message": "This symptom alone is unlikely to indicate cancer. However, monitor if it persists or worsens.",
+            "meal_plan": "Focus on nutrient-dense foods and proper hydration."
+        },
+        "digestive discomfort": {
+            "symptom": "Temporary digestive issues, such as bloating or gas",
+            "type": "No Cancer",
+            "severity": 0,
+            "message": "This symptom may be due to diet or lifestyle factors. If persistent, consider a dietary adjustment or consult a healthcare provider.",
+            "meal_plan": "Include probiotics, fiber, and avoid trigger foods."
+        },
+        "no_severe_symptoms": {
+            "symptom": "No severe symptoms detected",
+            "type": "No Cancer",
+            "severity": 0,
+            "message": "Based on your inputs, no signs of cancer were detected. It's still advisable to maintain regular health check-ups and a healthy lifestyle."
+        }
+    },
+    "specific_cancers": {
+        "Lung Cancer": ["cough", "persistent cough", "shortness of breath", "chest pain"],
+        "Colorectal Cancer": ["blood in stool", "abdominal pain"],
+        "Pancreatic Cancer": ["weight loss", "abdominal pain"],
+        "Leukemia": ["fatigue", "unexplained bruising", "fever"],
+        "Lymphoma": ["night sweats", "fever"],
+        "No Cancer": ["no_severe_symptoms", "mild tiredness", "digestive discomfort"]
+    }
+}
